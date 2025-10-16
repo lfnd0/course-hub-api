@@ -1,0 +1,5 @@
+@baseURL = http://localhost:3333
+@contentType = application/json
+
+###
+GET {{baseURL}}
