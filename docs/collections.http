@@ -3,3 +3,17 @@
 
 ###
 GET {{baseURL}}
+
+###
+GET {{baseURL}}/courses
+
+###
+GET {{baseURL}}/courses/5a145365-d74d-47a0-a6bc-d3bb6282a788
+
+###
+POST {{baseURL}}/courses
+Content-Type: {{contentType}}
+
+{
+  "title": "Node.js"
+}
